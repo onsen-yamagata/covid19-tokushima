@@ -2,7 +2,7 @@
   <v-app class="app">
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/Tokushima.svg" alt="徳島県" />
+        <img src="/sudachi.png" alt="徳島県" />
         <scale-loader color="#0f348d" />
       </div>
     </v-overlay>
@@ -84,7 +84,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://kagawa-covid19.netlify.com${this.$route.path}`
+          href: `https://tokushima-covid19.netlify.com${this.$route.path}`
         }
       ],
       meta: [
@@ -113,7 +113,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://kagawa-covid19.netlify.com${this.$route.path}`
+          content: `https://tokushima-covid19.netlify.com${this.$route.path}`
         },
         {
           hid: 'og:locale',
