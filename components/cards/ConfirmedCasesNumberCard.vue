@@ -8,7 +8,7 @@
       :date="Data.patients.date"
       :unit="$t('人')"
       :url="
-        'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5034012#15'
+        'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html#kensa'
       "
     />
   </v-col>
