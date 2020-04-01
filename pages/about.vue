@@ -6,13 +6,12 @@
     <StaticCard>
       {{
         $t(
-          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、徳島県のエンジニアがボランティアで開設したものです。'
+          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、山形県の素人がボランティアで開設したものです。'
         )
       }}<br />
-      <br />
       {{
         $t(
-          '徳島県による公式情報と客観的な数値をわかりやすく伝えることで、徳島県にお住まいの方や、徳島県内に拠点を持つ企業の方、徳島県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
+          '山形県による公式情報と客観的な数値をわかりやすく伝えることで、山形県にお住まいの方や、山形県内に拠点を持つ企業の方、山形県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
       }}
     </StaticCard>
@@ -175,12 +174,12 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。"
       >
         <a
-          href="https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/"
+          href="https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
         >
-          {{ $t('新型コロナウイルス感染症（COVID－19）に関する情報') }}
+          {{ $t('新型コロナウイルス感染症に関連するポータルサイト') }}
         </a>
       </i18n>
     </StaticCard>
@@ -194,7 +193,7 @@
         }}
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <a
-            href="https://github.com/yuta-kusuno/covid19-tokushima"
+            href="https://github.com/onsen-yamagata/covid19-yamagata/"
             target="_blank"
             rel="noopener"
             place="githubRepo"
