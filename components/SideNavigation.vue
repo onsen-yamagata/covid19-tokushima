@@ -11,9 +11,9 @@
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <h1 class="SideNavigation-Heading">
           <div class="SideNavigation-Logo">
-            <img src="/sudachi.png" :alt="$t('徳島県')" />
+            <img src="/side_navi_logo.png" :alt="$t('山形県')" />
           </div>
-          {{ $t('徳島県新型コロナウイルス感染症') }}<br />{{
+          {{ $t('山形県新型コロナウイルス感染症') }}<br />{{
             $t('非公式対策サイト')
           }}
         </h1>
@@ -47,7 +47,7 @@
       <v-footer class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
           <a
-            href="https://twitter.com/preftokushima"
+            href="https://twitter.com/pref_yamagata"
             target="_blank"
             rel="noopener"
           >
@@ -55,7 +55,7 @@
           </a>
           <!--
           <a
-            href="https://www.facebook.com/%E9%A6%99%E5%B7%9D%E7%9C%8C-291352664236696"
+            href="https://www.facebook.com/pref.yamagata.koho/"
             target="_blank"
             rel="noopener"
           >
@@ -63,7 +63,7 @@
           </a>
           -->
           <a
-            href="https://github.com/yuta-kusuno/covid19-tokushima"
+            href="https://github.com/onsen-yamagata/covid19-yamagata/"
             target="_blank"
             rel="noopener"
           >
@@ -116,29 +116,19 @@ export default Vue.extend({
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
           link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/'
+            'https://www.pref.yamagata.jp/ou/kenkofukushi/090001/20130425/shingata_corona.html'
         },
         {
-          icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/',
-          divider: true
+          title: this.$t('お問い合わせ先一覧'),
+          link: this.localePath('/contacts')
         },
-
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
         },
         {
-          title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035364/#100',
-          divider: true
-        },
-        {
-          title: this.$t('徳島県公式ホームページ'),
-          link: 'https://www.pref.tokushima.lg.jp/',
+          title: this.$t('山形県公式ホームページ'),
+          link: 'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html',
           divider: true
         }
       ]
