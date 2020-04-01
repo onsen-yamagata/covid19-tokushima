@@ -1,7 +1,7 @@
 <template>
   <v-app class="app-print">
     <div v-if="loading" class="loader">
-      <img src="/Tokushima.svg" :alt="$t('徳島県')" />
+      <img src="/yamagata.svg" :alt="$t('山形県')" />
       <scale-loader color="#00A040" />
     </div>
     <v-container v-else>
@@ -9,7 +9,7 @@
         <v-col :cols="12" :sm="6">
           <div class="PrintMeta-HeadingWrapper">
             <div class="PrintMeta-Logo">
-              <img src="/Tokushima.svg.png" :alt="$t('徳島県')" />
+              <img src="/yamagata.svg.png" :alt="$t('山形県')" />
             </div>
             <h1 class="PrintMeta-Heading">
               {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
@@ -32,7 +32,7 @@
                 {{ $t('※最新の情報はWebページをご覧ください') }}
               </p>
               <p class="PrintMeta-Link">
-                https://kagawa-covid19.netlify.com/
+                https://covid19-yamagata.netlify.com/
               </p>
             </v-card>
           </v-card>
@@ -80,7 +80,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://kagawa-covid19.netlify.com${this.$route.path}`
+          href: `https://covid19-yamagata.netlify.com${this.$route.path}`
         }
       ]
     }
