@@ -53,7 +53,7 @@
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
-          <!--
+
           <a
             href="https://www.facebook.com/pref.yamagata.koho/"
             target="_blank"
@@ -61,7 +61,7 @@
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>
-          -->
+
           <a
             href="https://github.com/onsen-yamagata/covid19-yamagata/"
             target="_blank"
@@ -111,6 +111,11 @@ export default Vue.extend({
           icon: 'parent',
           title: this.$t('お子様をお持ちの皆様へ'),
           link: this.localePath('/parent')
+        },
+        {
+          icon: 'mdi-domain',
+          title: this.$t('企業の皆様・はたらく皆様へ'),
+          link: this.localePath('/worker')
         },
         {
           icon: 'mdi-account-multiple',
