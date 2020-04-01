@@ -25,6 +25,7 @@ import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
@@ -35,8 +36,8 @@ export default Vue.extend({
     WhatsNew,
 	ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
-    TestedNumberCard,
-    TelephoneAdvisoryReportsNumberCard
+    ConfirmedCasesAttributesCard,
+    TestedNumberCard
   },
   data() {
     const data = {
