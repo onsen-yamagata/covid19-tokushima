@@ -1,6 +1,11 @@
-# 徳島県(非公式) 新型コロナウイルス感染症対策サイト
+# 山形県(非公式) 新型コロナウイルス感染症対策サイト
 
-### 日本語 | [English](./README_EN.md)
+
+## 大原則
+基本的に、大元の方針に準拠してください。
+[東京都 新型コロナウイルス感染症対策サイト](https://github.com/tokyo-metropolitan-gov/covid19/)
+
+VueやNuxtに関して素人です。不備があればご指摘頂けますと幸いです。
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
@@ -8,7 +13,7 @@ Issues にあるいろいろな修正にご協力いただけると嬉しいで�
 詳しくは[貢献の仕方](./.github/CONTRIBUTING.md)を御覧ください。
 
 ## 行動原則
-詳しくは[サイト構築にあたっての行動原則](./.github/CODE_OF_CONDUCT.md)を御覧ください。
+詳しくは[サイト構築にあたっての行動原則](https://github.com/tokyo-metropolitan-gov/covid19/blob/development/CODE_OF_CONDUCT.md)を御覧ください。
 
 ## ライセンス
 本ソフトウェアは、[MITライセンス](./LICENSE.txt)の元提供されています。
@@ -48,27 +53,11 @@ $ docker-compose run --rm app yarn install
 
 ### 本番環境/その他の判定
 
-`process.env.GENERATE_ENV` の値が、本番の場合は`'production'`に、それ以外の場合は `'development'` になっています。  
-テスト環境のみで実行したい処理がある場合はこちらの値をご利用ください。
+`process.env.GENERATE_ENV` の値が、本番の場合は`'production'`になっています。
 
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://covid19ーtokushima.netlify.com/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://cranky-wing-a5d6e0.netlify.com/ が更新されます。
 
-`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-tokushima.netlify.com/ が更新されます。
-
-### ブランチルール
-
-development 以外は Pull Request は禁止です。  
-Pull Request を送る際の branch は、以下のネーミングルールでお願いします。
-
-機能追加系： feature/#{ISSUE_ID}-#{branch_title_name}  
-ホットフィックス系: hotfix/#{ISSUE_ID}-#{branch_title_name}
-
-#### 基本的なブランチ
-| 目的 | ブランチ | 確認URL | 備考 |
-| ---- | -------- | ---- | ---- |
-| 開発 | development | http://dev-covid19-tokushima.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
-| 本番 | master | https://covid19ーtokushima.netlify.com/ | 管理者以外の Pull Request は禁止です |
 
 
