@@ -8,7 +8,7 @@
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
       :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+        'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html#kensa'
       "
     />
   </v-col>
