@@ -7,7 +7,7 @@
           <span :class="$style.small">{{ $t('※') }}</span>
         </p>
         <p :class="$style.content">
-          {{ $t('香川県健康安全研究センター等') }}
+          {{ $t('県衛生研究所') }}
         </p>
       </div>
     </div>
