@@ -1,34 +1,34 @@
 {
     "newsItems": [
         {
-            "date": "2020\/3\/31",
+            "date": "2020\/04\/01",
+            "url": "https:\/\/www.pref.yamagata.jp\/ou\/kyoiku\/700001\/somuka-top-kikakuyosan\/kyuukoutaiou\/yamagata202002.html",
+            "text": "学校臨時休業等に係る本県の対応について"
+        },
+        {
+            "date": "2020\/03\/31",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/shingatacoronakikitaisakuhonbu5.html",
             "text": "山形県新型コロナウイルス感染症に係る危機対策本部　第5回本部員会議を開催しました"
         },
         {
-            "date": "2020\/3\/29",
+            "date": "2020\/03\/29",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/shingatacoronahonbuinkaigi4.html",
             "text": "山形県新型コロナウイルス感染症に係る危機対策本部　第4回本部員会議を開催しました"
         },
         {
-            "date": "2020\/3\/23",
+            "date": "2020\/03\/23",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/shingatacoronavirushonbuinkaigi3.html",
             "text": "山形県新型コロナウイルス感染症に係る危機対策本部　第3回本部員会議を開催しました"
         },
         {
-            "date": "2020\/2\/25",
+            "date": "2020\/02\/25",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/shingatacoronavirushonbuinkaigi2.html",
             "text": "山形県新型コロナウイルス感染症に係る危機対策本部　第2回本部員会議を開催しました"
         },
         {
-            "date": "2020\/2\/7",
+            "date": "2020\/02\/7",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/kansenshoubonbuinkaigi1.html",
             "text": "山形県新型コロナウイルス感染症対策本部本部員会議を開催しました"
-        },
-        {
-            "date": "2020\/2\/1",
-            "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/coronavirus\/coronavirus.html",
-            "text": "新型コロナウイルス感染症に関連するポータルサイト"
         }
     ]
 }
