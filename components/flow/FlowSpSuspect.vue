@@ -9,28 +9,28 @@
 
     <ul :class="[$style.rectContainer, $style.triple]">
       <li :class="$style.symptom">
-        {{ $t('微熱') }}
-      </li>
-      <li :class="$style.symptom">
-        {{ $t('軽い咳') }}
-      </li>
-      <li :class="$style.symptom">
         {{ $t('感染の不安') }}
+      </li>
+      <li :class="$style.symptom">
+        {{ $t('予防策') }}
+      </li>
+      <li :class="$style.symptom">
+        {{ $t('その他質問') }}
       </li>
     </ul>
 
     <div :class="$style.callcenter">
       <p :class="$style.fzLarge">
-        {{ $t('新型コロナコールセンター') }}
+        {{ $t('県庁健康福祉企画課 薬務・感染症対策室') }}
       </p>
       <p :class="$style.open">
-        {{ $t('午前9時から午後9時（土日祝含む）') }}
+        {{ $t('午前8時30分～午後5時15分') }}
       </p>
       <p :class="[$style.phone, $style.fzNumeric]">
         <span :class="$style.icon">
           <PhoneIcon alt="Phone" />
         </span>
-        <a href="tel:0570550571">0570-550571</a>
+        <a href="tel:0236302315">023-630-2315</a>
       </p>
     </div>
 
@@ -68,6 +68,7 @@ export default {
   &.triple {
     margin-left: px2vw(-11);
     margin-right: px2vw(-11);
+
     > .symptom {
       margin-left: px2vw(11);
       margin-right: px2vw(11);
@@ -79,6 +80,7 @@ export default {
 .callcenter {
   margin-top: px2vw(25);
   text-align: center;
+
   .open {
     margin-top: px2vw(10);
   }
@@ -86,10 +88,12 @@ export default {
 
 @include largerThan($small) {
   $vw: 960;
+
   .rectContainer {
     &.triple {
       margin-left: px2vw(-11, $vw);
       margin-right: px2vw(-11, $vw);
+
       > .symptom {
         margin-left: px2vw(11, $vw);
         margin-right: px2vw(11, $vw);
@@ -99,6 +103,7 @@ export default {
   // suspect
   .callcenter {
     margin-top: px2vw(25, $vw);
+
     .open {
       margin-top: px2vw(10, $vw);
     }
