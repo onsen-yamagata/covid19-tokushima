@@ -16,7 +16,7 @@ export type GraphDataType = {
  */
 export default (data: DataType[]) => {
   const graphData: GraphDataType[] = []
-  const today = new Date().toLocaleString({ timeZone: 'Asia/Tokyo' })
+  const today = new Date()
   let patSum = 0
   data
     .filter(d => new Date(d['日付']) < today)
