@@ -16,12 +16,12 @@ export type GraphDataType = {
  */
 export default (data: DataType[]) => {
   const graphData: GraphDataType[] = []
-  const today = new Date()
+  const today = new Date().toLocaleString({ timeZone: 'Asia/Tokyo' })
   let patSum = 0
   data
-    .filter(d => new Date(d['日付']) < today)
+    .filter(d => new Date(d['日付']).toLocaleString({ timeZone: 'Asia/Tokyo' }) < today)
     .forEach(d => {
-      const date = new Date(d['日付'])
+      const date = new Date(d['日付']).toLocaleString({ timeZone: 'Asia/Tokyo' })
       const subTotal = d['小計']
       if (!isNaN(subTotal)) {
         patSum += subTotal
