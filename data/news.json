@@ -1,5 +1,16 @@
 {
     "newsItems": [
+	
+        {
+            "date": "2020\/04\/04",
+            "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/coronavirus\/pdf\/9-10reime.pdf",
+            "text": "本県9～10例目となる新型コロナウイルスの感染者が確認されました"
+        },
+        {
+            "date": "2020\/04\/03",
+            "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/coronavirus\/pdf\/4-8reime.pdf",
+            "text": "本県4～8例目となる新型コロナウイルスの感染者が確認されました"
+        },
         {
             "date": "2020\/04\/02",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/coronavirus\/pdf\/3reime.pdf",
@@ -24,11 +35,6 @@
             "date": "2020\/03\/31",
             "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/coronavirus\/pdf\/1reime.pdf",
             "text": "本県1例目となる新型コロナウイルスの感染者が確認されました"
-        },
-        {
-            "date": "2020\/03\/29",
-            "url": "https:\/\/www.pref.yamagata.jp\/ou\/bosai\/020072\/kochibou\/shingatacoronahonbuinkaigi4.html",
-            "text": "山形県新型コロナウイルス感染症に係る危機対策本部　第4回本部員会議を開催しました"
         }
     ]
 }
