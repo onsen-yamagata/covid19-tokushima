@@ -16,7 +16,7 @@ const config: Configuration = {
     titleTemplate: '%s | 山形県 新型コロナウイルス感染症対策サイト',
     meta: [
       { charset: 'utf-8' },
-      { hid: 'http-equiv', 'http-equiv': 'Refresh', content: '0;URL=https://stopcovid19-yamagata.netlify.com/' },
+     
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
