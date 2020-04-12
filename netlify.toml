@@ -4,6 +4,6 @@
   status = 404
 
 [[redirects]]
-  from = "https://covid19-yamagata.netlify.com/"
+  from = "https://covid19-yamagata.netlify.com/*"
   to = "https://stopcovid19-yamagata.netlify.com/"
   status = 301
